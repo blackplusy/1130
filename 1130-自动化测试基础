@@ -1,0 +1,79 @@
+1.测试的分类
+	a.功能测试
+		文档:   操作  实际结果  预期结果
+	b.游戏测试
+		34X4X6=816
+	c.自动化测试
+	d.性能测试
+		1w  	cpu 内存 硬盘 io  
+		100w    cpu 内存 硬盘 io
+	e.安全测试
+2.岗位薪资
+	a.功能测试 	 8-11k
+	b.自动化测试  13k
+	c.性能测试    18k
+	e.游戏测试    6-16k
+	f.安全测试    40w/年
+3.技能点
+	a.功能测试
+		web基础 
+		操作系统
+		数据库
+		测试理论
+	b.自动化测试
+		python   java、ruby、php、c#、js...
+		selenium   web自动化
+		pytest     接口自动化
+	c.性能测试
+		软件
+		硬件
+		存储
+		网络
+		数据库
+		web服务器
+		业务
+	d.游戏测试
+		游戏测试理论
+	e.安全测试
+		安全测试理论
+		安全测试工具  kali backtrack
+4.自动化测试
+	a.主流web自动化测试框架
+		QTP/UFT
+		selenium
+		robotframework
+	b.自动化测试环境部署
+		a.下载安装python
+		b.安装配置pycharm(interpreter)
+		c.安装selenium库
+		d.部署浏览器对应版本的webdriver
+	c.selenium常见元素定位方式
+		1>查看页面元素信息
+			浏览器的F12功能(开发者工具)，点击元素右键检查，查看对应元素的前端代码
+		2>对元素的常见操作
+			click()           点击
+			clear()           清空
+			send_keys()       发送内容
+		3>name定位
+			通过标签中name的值进行元素的定位
+		4>class定位
+			通过标签中class的值进行元素的定位
+		5>tag定位
+			工作中使用较少，很难通过tag去定位不同元素
+		6>通过link定位
+			专门定位文本链接。a标签
+		7>通过partial link定位
+			超文本链接很长，使用模糊匹配
+		8>xpath定位
+			理想状态下所有页面中都会有id，name，class等等，但实际情况并不是
+		9>css定位
+			相对于xpah简单，速度快
+
+
+
+
+
+
+
+
+
